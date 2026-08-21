@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="description" content="Jana S — B.Tech Artificial Intelligence and Data Science portfolio and resume. Showcasing AI/ML projects, Prompt Engineering internship, Python, C++, SQL, and contact information." />
+  <meta name="keywords" content="Jana S, Artificial Intelligence, Data Science, Portfolio, Resume, Machine Learning, Python, C++, SQL, AI Developer" />
+  <meta name="author" content="Jana S" />
+  <meta property="og:title" content="Jana S | AI & Data Science Portfolio & Resume" />
+  <meta property="og:description" content="Motivated B.Tech AI & Data Science student building practical ML models, computer vision systems, and intelligent applications." />
+  <meta property="og:type" content="website" />
+
+  <title>Jana S | AI & Data Science Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jana S",
+    "jobTitle": "Artificial Intelligence & Data Science Engineer",
+    "email": "mailto:samijana677@gmail.com",
+    "telephone": "+919345587528",
+    "address": "3/164A, Bommanaickenpalayam, Gobi, Tamil Nadu",
+    "alumniOf": "J K K Munirajah College of Technology",
+    "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Data Science", "Python", "C++", "SQL", "Prompt Engineering"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+  <!-- Main Header & Navigation -->
+  <header class="navbar" id="navbar">
+    <a class="logo" href="#home" aria-label="Jana S Home">J<span>.</span>S</a>
+
+    <div class="nav-controls">
+      <nav id="nav" role="navigation" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Resume Download Header Button -->
+      <a class="btn-resume-nav" href="assets/resume.pdf" download="Jana_S_Resume.pdf" target="_blank" title="Download Official Resume PDF">
+        📄 Resume PDF
+      </a>
+
+      <!-- Theme Switcher Button -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" title="Toggle Theme">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+      </button>
+
+      <!-- Mobile Menu Button -->
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">B.Tech • Artificial Intelligence & Data Science</p>
+        <h1>Hi, I'm <span>Jana S.</span></h1>
+        <h2>I build <span id="typing"></span><span class="cursor" aria-hidden="true">|</span></h2>
+        <p class="hero-text">
+          A motivated and detail-oriented AI & Data Science student with a strong foundation in Python, Machine Learning, Data Analytics, SQL, C++, and Cloud Computing. Passionate about solving real-world problems using data-driven approaches.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="assets/resume.pdf" download="Jana_S_Resume.pdf" target="_blank">
+            <span class="btn-icon">📄</span> Download Resume (PDF)
+          </a>
+          <a class="btn secondary" href="#projects">View My Work <span>↗</span></a>
+          <button class="btn ghost" id="copyEmailBtn" title="Copy email address">
+            <span class="btn-icon">📋</span> Copy Email
+          </button>
+        </div>
+
+        <div class="mini-stats">
+          <div><strong>2023–2027</strong><span>B.Tech Candidate</span></div>
+          <div><strong>AI / ML</strong><span>Internship Trained</span></div>
+          <div><strong>100%</strong><span>10th SSLC Score</span></div>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap reveal">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="photo-card" id="photoCard">
+          <div class="photo-glow"></div>
+          <div class="photo-spotlight" id="photoSpotlight"></div>
+          <img src="assets/profile.jpg" alt="Jana S profile photo" loading="eager" />
+          <div class="photo-tag">
+            <span class="pulse"></span> Open to Internships & Roles
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — About Me</p>
+        <h2>Driven by Data. <span>Building for Impact.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass reveal">
+          <p>
+            I am a motivated and detail-oriented Data Science student pursuing my <strong>B.Tech in Artificial Intelligence and Data Science (2023–2027)</strong> at <strong>J K K Munirajah College of Technology (JKKMCT)</strong>.
+          </p>
+          <p>
+            I possess strong analytical, communication, and teamwork skills, and I am eager to contribute to innovative projects in Machine Learning, Prompt Engineering, Data Engineering, and Cloud Technologies.
+          </p>
+          <div class="about-meta-chips">
+            <span>📍 Gobi, Tamil Nadu</span>
+            <span>📞 +91 9345587528</span>
+            <span>📧 samijana677@gmail.com</span>
+            <span>🎓 JKKMCT Candidate</span>
+          </div>
+        </div>
+
+        <div class="about-points reveal">
+          <div class="point-card">
+            <span class="point-num">01</span>
+            <div>
+              <b>Data Science & AI Specialist</b>
+              <small>Building robust ML algorithms, predictive models, and data analytics pipelines.</small>
+            </div>
+          </div>
+          <div class="point-card">
+            <span class="point-num">02</span>
+            <div>
+              <b>Prompt Engineering & Generative AI</b>
+              <small>Practical internship experience structuring LLM prompts and AI workflows.</small>
+            </div>
+          </div>
+          <div class="point-card">
+            <span class="point-num">03</span>
+            <div>
+              <b>Leadership & Critical Thinking</b>
+              <small>Strong management, time management, and collaborative problem-solving skills.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internships & Experience Section -->
+    <section class="section experience" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — Internships & Training</p>
+        <h2>Hands-on Experience <span>& Upskilling.</span></h2>
+      </div>
+
+      <div class="exp-grid">
+        <!-- Exp Card 1 -->
+        <div class="exp-card glass reveal">
+          <div class="exp-badge">INTERNSHIP</div>
+          <h3>Prompt Engineering Intern</h3>
+          <p class="exp-subtitle">Generative AI & LLM Workflows</p>
+          <p class="exp-desc">Trained in crafting structured prompts, evaluating large language model responses, and optimizing AI conversational pipelines for automated tasks.</p>
+          <div class="tags"><span>Generative AI</span><span>Prompt Design</span><span>LLMs</span></div>
+        </div>
+
+        <!-- Exp Card 2 -->
+        <div class="exp-card glass reveal">
+          <div class="exp-badge">INTERNSHIP</div>
+          <h3>AI / ML Intern</h3>
+          <p class="exp-subtitle">Machine Learning & Data Modeling</p>
+          <p class="exp-desc">Gained practical experience implementing supervised classification, regression models, exploratory data analysis (EDA), and data cleaning techniques.</p>
+          <div class="tags"><span>Python</span><span>Scikit-Learn</span><span>Machine Learning</span></div>
+        </div>
+
+        <!-- Exp Card 3 -->
+        <div class="exp-card glass reveal">
+          <div class="exp-badge">TRAINING</div>
+          <h3>Web Development Training</h3>
+          <p class="exp-subtitle">Full-Stack Frontend Basics</p>
+          <p class="exp-desc">Completed intensive training building modern web interfaces using HTML, CSS, JavaScript, and responsive UI design principles.</p>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — Technical & Soft Skills</p>
+        <h2>Tools & Technologies <span>I Master.</span></h2>
+      </div>
+
+      <!-- Skill Category Filter Tabs -->
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All Skills</button>
+        <button class="filter-btn" data-filter="lang">Languages</button>
+        <button class="filter-btn" data-filter="ai">AI & Data</button>
+        <button class="filter-btn" data-filter="tools">Tools & Tech</button>
+        <button class="filter-btn" data-filter="soft">Personal & Prof.</button>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Python -->
+        <div class="skill-card reveal" data-category="lang">
+          <div class="skill-head">
+            <div class="skill-icon">Py</div>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <h3>Python</h3>
+          <p>Data Science, Pandas, NumPy, Scikit-Learn</p>
+          <div class="bar-wrap">
+            <div class="bar-info"><span>Proficiency</span><span>90%</span></div>
+            <div class="bar"><i data-progress="90%"></i></div>
+          </div>
+        </div>
+
+        <!-- C++ -->
+        <div class="skill-card reveal" data-category="lang">
+          <div class="skill-head">
+            <div class="skill-icon">C++</div>
+            <span class="skill-level">Proficient</span>
+          </div>
+          <h3>C++</h3>
+          <p>Object-Oriented Programming & Algorithms</p>
+          <div class="bar-wrap">
+            <div class="bar-info"><span>Proficiency</span><span>82%</span></div>
+            <div class="bar"><i data-progress="82%"></i></div>
+          </div>
+        </div>
+
+        <!-- Java -->
+        <div class="skill-card reveal" data-category="lang">
+          <div class="skill-head">
+            <div class="skill-icon">J</div>
+            <span class="skill-level">Proficient</span>
+          </div>
+          <h3>Java</h3>
+          <p>OOP Concepts & Application Logic</p>
+          <div class="bar-wrap">
+            <div class="bar-info"><span>Proficiency</span><span>80%</span></div>
+            <div class="bar"><i data-progress="80%"></i></div>
+          </div>
+        </div>
+
+        <!-- SQL & MySQL -->
+        <div class="skill-card reveal" data-category="ai">
+          <div class="skill-head">
+            <div class="skill-icon">SQL</div>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <h3>SQL & MySQL</h3>
+          <p>Database Design, Complex Queries & Joins</p>
+          <div class="bar-wrap">
+            <div class="bar-info"><span>Proficiency</span><span>88%</span></div>
+            <div class="bar"><i data-progress="88%"></i></div>
+          </div>
+        </div>
+
+        <!-- Machine Learning -->
+        <div class="skill-card reveal" data-category="ai">
+          <div class="skill-head">
+            <div class="skill-icon">ML</div>
+            <span class="skill-level">Intermediate</span>
+          </div>
+          <h3>Machine Learning</h3>
+          <p>Supervised Modeling, Classification & Regression</p>
+          <div class="bar-wrap">
+            <div class="bar-info"><span>Proficiency</span><span>84%</span></div>
+            <div class="bar"><i data-progress="84%"></i></div>
+          </div>
+        </div>
+
+        <!-- Tools & GitHub -->
+        <div class="skill-card reveal" data-category="tools">
+          <div class="skill-head">
+            <div class="skill-icon">Git</div>
+            <span class="skill-level">Proficient</span>
+          </div>
+          <h3>Git & GitHub / VS Code</h3>
+          <p>Version Control, IDEs & Code Management</p>
+          <div class="bar-wrap">
+            <div class="bar-info"><span>Proficiency</span><span>85%</span></div>
+            <div class="bar"><i data-progress="85%"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — Portfolio Showcase</p>
+        <h2>Featured <span>AI & Data Projects.</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/project_telemed.jpg" alt="Telemedicine Access for Rural Healthcare UI preview" loading="lazy" />
+            <div class="project-badge">AI Healthcare</div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <span class="project-num">01</span>
+              <h3>Telemedicine Access for Rural Healthcare</h3>
+            </div>
+            <p>An AI-assisted symptom analysis platform designed to improve healthcare accessibility in remote rural areas with multilingual consultation capabilities.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>AI Diagnostics</span>
+              <span>Healthcare</span>
+            </div>
+            <button class="btn-detail" onclick="openProjectModal('telemed')">Explore Case Study <span>→</span></button>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/project_sign_lang.jpg" alt="AI-Powered Sign Language Interpreter preview" loading="lazy" />
+            <div class="project-badge">Computer Vision</div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <span class="project-num">02</span>
+              <h3>AI Sign Language Interpreter</h3>
+            </div>
+            <p>Real-time computer vision system using hand landmark tracking and neural classifiers to translate Indian Sign Language (ISL) gestures into speech/text.</p>
+            <div class="tags">
+              <span>OpenCV</span>
+              <span>MediaPipe</span>
+              <span>Deep Learning</span>
+            </div>
+            <button class="btn-detail" onclick="openProjectModal('signlang')">Explore Case Study <span>→</span></button>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/project_traffic.jpg" alt="Smart Traffic Prediction & Signal Control preview" loading="lazy" />
+            <div class="project-badge">Smart City ML</div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <span class="project-num">03</span>
+              <h3>Smart Traffic Prediction & Signal Control</h3>
+            </div>
+            <p>Predictive analytics platform estimating junction congestion levels and suggesting dynamic traffic signal timings to eliminate urban bottle-necks.</p>
+            <div class="tags">
+              <span>Machine Learning</span>
+              <span>Predictive Modeling</span>
+              <span>Time-Series</span>
+            </div>
+            <button class="btn-detail" onclick="openProjectModal('traffic')">Explore Case Study <span>→</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 — Academic Qualifications</p>
+        <h2>Education & <span>Academic Achievements.</span></h2>
+      </div>
+
+      <div class="timeline reveal">
+        <!-- College B.Tech -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass">
+            <div class="timeline-header">
+              <span class="date-badge">2023 — 2027 (CURRENT)</span>
+              <h3>B.Tech — Artificial Intelligence and Data Science</h3>
+            </div>
+            <p class="institution">J K K MUNIRAJAH COLLEGE OF TECHNOLOGY (JKKMCT)</p>
+            <p class="description">
+              Building a strong foundation in Machine Learning, Data Analytics, Python, C++, Java, Database Systems, and Cloud Computing.
+            </p>
+          </div>
+        </div>
+
+        <!-- 12th HSC -->
+        <div class="timeline-item" style="margin-top: 24px;">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass">
+            <div class="timeline-header">
+              <span class="date-badge">2022 — 2023</span>
+              <h3>Higher Secondary Certificate (12th HSC)</h3>
+            </div>
+            <p class="institution">SVHEC</p>
+            <p class="description">
+              Completed Higher Secondary Education with <strong>70.54%</strong> score.
+            </p>
+          </div>
+        </div>
+
+        <!-- 10th SSLC -->
+        <div class="timeline-item" style="margin-top: 24px;">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass">
+            <div class="timeline-header">
+              <span class="date-badge">2020 — 2021</span>
+              <h3>Secondary School Leaving Certificate (10th SSLC)</h3>
+            </div>
+            <p class="institution">SVHEC</p>
+            <p class="description">
+              Completed SSLC with a perfect score of <strong>100%</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <div class="contact-info">
+          <p class="eyebrow">06 — Contact Information</p>
+          <h2>Let's build something <span>intelligent.</span></h2>
+          <p>I am open to internships, projects, and full-time entry roles in Artificial Intelligence, Data Science, and Machine Learning.</p>
+          
+          <div class="contact-links-list">
+            <a href="tel:9345587528" class="contact-item">
+              <span class="icon">📞</span>
+              <div>
+                <small>Phone</small>
+                <strong>+91 9345587528</strong>
+              </div>
+            </a>
+            <a href="mailto:samijana677@gmail.com" class="contact-item">
+              <span class="icon">✉️</span>
+              <div>
+                <small>Direct Email</small>
+                <strong>samijana677@gmail.com</strong>
+              </div>
+            </a>
+            <div class="contact-item">
+              <span class="icon">📍</span>
+              <div>
+                <small>Address</small>
+                <strong>3/164A, Bommanaickenpalayam, Gobi, Tamil Nadu</strong>
+              </div>
+            </div>
+            <a href="assets/resume.pdf" download="Jana_S_Resume.pdf" class="contact-item" target="_blank" style="border-color: var(--accent);">
+              <span class="icon">📄</span>
+              <div>
+                <small>Official Resume</small>
+                <strong style="color: var(--accent);">Download PDF Resume ↗</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <form class="contact-form" id="contactForm">
+          <h3>Send Me a Message</h3>
+          <div class="form-group">
+            <label for="formName">Your Name</label>
+            <input type="text" id="formName" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="formEmail">Your Email</label>
+            <input type="email" id="formEmail" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="formMessage">Message</label>
+            <textarea id="formMessage" name="message" rows="4" placeholder="Hi Jana, I'd like to connect regarding an AI opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn primary full-width">
+            Send Message <span>🚀</span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-copy">
+      <b>Jana S.</b> — B.Tech Artificial Intelligence & Data Science
+    </div>
+    <div class="footer-rights">
+      © <span id="year"></span> Jana S. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top" title="Back to top">↑</button>
+
+  <!-- Toast Notification element -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" onclick="closeProjectModal()" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Content inserted dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
